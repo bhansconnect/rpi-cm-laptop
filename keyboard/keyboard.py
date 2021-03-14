@@ -89,7 +89,7 @@ def keyboard(uvcc, udplus, udminus, gnd):
     atmega['XTAL1'] & oscillator_cap1 & gnd
     atmega['XTAL2'] & oscillator_cap2 & gnd
 
-    # TODO: Define actually keyboard matrix below.
+    # TODO: Define actual keyboard matrix below.
 
 
 if __name__ == '__main__':
