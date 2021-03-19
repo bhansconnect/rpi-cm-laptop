@@ -31,7 +31,6 @@ def key_matrx(row_pins, col_pins, vcc, gnd, led_din=None):
                 led.footprint = 'kbd:YS-SK6812MINI-E'
                 led['VDD'] += vcc
                 led['VSS'] += gnd
-                led['VSS'].drive = POWER
                 led['DIN'] += current_din
                 current_din = led['DOUT']
     current_din += NC
@@ -156,6 +155,7 @@ if __name__ == '__main__':
     dplus = Net('D+')
     dminus = Net('D-')
     gnd = Net('GND')
+    gnd.drive = POWER
 
     usb_c = Part('Connector', 'USB_C_Receptacle_USB2.0')
     usb_c.footprint = 'USB_C_Receptacle_HRO_TYPE-C-31-M-12'
