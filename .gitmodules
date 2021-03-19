@@ -1,0 +1,3 @@
+[submodule "keyboard/kbd"]
+	path = keyboard/kbd
+	url = https://github.com/foostan/kbd
