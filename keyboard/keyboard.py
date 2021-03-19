@@ -19,13 +19,25 @@ R_FP = 'Resistor_SMD:R_0805_2012Metric'
 @subcircuit
 def key_matrx(row_pins, col_pins, vcc, gnd, led_din=None):
     current_din = led_din
-    for r in row_pins:
-        for c in col_pins:
+    row_nets = []
+    for i, r in enumerate(row_pins):
+        rn = Net(f'ROW{i}')
+        rn += r
+        row_nets.append(rn)
+    col_nets = []
+    for i, c in enumerate(col_pins):
+        cn = Net(f'COL{i}')
+        cn += c
+        col_nets.append(cn)
+    for r in row_nets:
+        for c in col_nets:
             key = Part('kbd', 'SW_PUSH')
             key.footprint = 'kbd:CherryMX_Hotswap'
             diode = Part('Device', 'D')
             diode.footprint = 'kbd:D3_SMD_v2'
-            c & key & diode & r
+            key[1] += c
+            key[2] += diode[2]
+            diode[1] += r
             if led_din is not None:
                 led = Part('kbd', 'YS-SK6812MINI-E')
                 led.footprint = 'kbd:YS-SK6812MINI-E'
