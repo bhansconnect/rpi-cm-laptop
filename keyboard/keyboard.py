@@ -90,8 +90,11 @@ def keyboard(uvcc, udplus, udminus, gnd):
                           footprint=R_FP)
     dminus_resistor = Part('Device', 'R', value='22',
                            footprint=R_FP)
-    atmega['D+'] & dplus_resistor & udplus
-    atmega['D-'] & dminus_resistor & udminus
+    # Add net to keep differential pair naming
+    rdplus = Net("RD+")
+    rdminus = Net("RD-")
+    atmega['D+'] & rdplus & dplus_resistor & udplus
+    atmega['D-'] & rdminus & dminus_resistor & udminus
 
     # Bypass caps
     uvcc_bypass = Part('Device', 'C', value='1uF',
