@@ -25,6 +25,7 @@ _autosave-*
 fp-info-cache
 gerber/
 gerber.zip
+*.xlsx
 
 *.dsn
 *.ses
