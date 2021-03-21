@@ -24,6 +24,7 @@ _autosave-*
 *-rescue.dcm
 fp-info-cache
 gerber/
+gerber.zip
 
 *.dsn
 *.ses
