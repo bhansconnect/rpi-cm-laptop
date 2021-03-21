@@ -10,17 +10,17 @@
 if __name__ == '__main__':
     import argparse
     import xml.etree.ElementTree as ET
-    import xlsxwriter
+    import csv
 
     parser = argparse.ArgumentParser()
     parser.add_argument('xml', action='store',
                         type=argparse.FileType('r'), help='SKIDL XML to be converted to BOM')
     parser.add_argument('-o', '--out', action='store',
-                        dest='bom', help='File to output xlsx BOM to')
+                        type=argparse.FileType('w'), dest='bom', help='File to output csv BOM to')
     args = parser.parse_args()
 
     if args.bom is None:
-        args.bom = 'bom.xlsx'
+        args.bom = open('bom.csv', 'w')
 
     xml = ET.parse(args.xml)
     root = xml.getroot()
@@ -71,20 +71,11 @@ if __name__ == '__main__':
         partmap[lcsc].append(
             {'ref': ref, 'value': value, 'footprint': footprint})
 
-    workbook = xlsxwriter.Workbook(args.bom)
-    worksheet = workbook.add_worksheet()
+    args.xml.close()
 
-    max_widths = [0]*4
-    row = 0
-    worksheet.write(row, 0, 'Comment')
-    worksheet.write(row, 1, 'Designator')
-    worksheet.write(row, 2, 'Footprint')
-    worksheet.write(row, 3, 'LCSC Part #（optional）')
-    max_widths[0] = len('Comment')
-    max_widths[1] = len('Designator')
-    max_widths[2] = len('Footprint')
-    max_widths[3] = len('LCSC Part #（optional）')
-    row += 1
+    bom = csv.writer(args.bom, quoting=csv.QUOTE_ALL)
+    bom.writerow(['Comment', 'Designator',
+                  'Footprint', 'LCSC Part #（optional）'])
 
     for lcsc, parts in partmap.items():
         # verify part compatibility
@@ -103,15 +94,7 @@ if __name__ == '__main__':
         for part in parts:
             refs.append(part['ref'])
         # Note, refs is already sorted due to SKIDL sorting it in the XML
-        worksheet.write(row, 0, value)
-        worksheet.write(row, 1, ', '.join(refs))
-        worksheet.write(row, 2, footprint)
-        worksheet.write(row, 3, lcsc)
-        max_widths[0] = max(max_widths[0], len(value))
-        max_widths[1] = max(max_widths[1], len(', '.join(refs)))
-        max_widths[2] = max(max_widths[2], len(footprint))
-        max_widths[3] = max(max_widths[3], len(lcsc))
-        row += 1
+        bom.writerow([value, ', '.join(refs), footprint, lcsc])
 
     # output other parts without lcsc number
     for parts in nolcscmap.values():
@@ -120,15 +103,6 @@ if __name__ == '__main__':
         for part in parts:
             refs.append(part['ref'])
         # Note, refs is already sorted due to SKIDL sorting it in the XML
-        worksheet.write(row, 0, parts[0]['value'])
-        worksheet.write(row, 1, ', '.join(refs))
-        worksheet.write(row, 2, parts[0]['footprint'])
-        max_widths[0] = max(max_widths[0], len(value))
-        max_widths[1] = max(max_widths[1], len(', '.join(refs)))
-        max_widths[2] = max(max_widths[2], len(footprint))
-        row += 1
+        bom.writerow([value, ', '.join(refs), footprint, ''])
 
-    for i, width in enumerate(max_widths):
-        worksheet.set_column(i, i, width)
-
-    workbook.close()
+    args.bom.close()
