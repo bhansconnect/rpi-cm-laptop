@@ -3,7 +3,7 @@ from skidl import Pin, Part, Alias, SchLib, SKIDL, TEMPLATE
 SKIDL_lib_version = '0.0.1'
 
 keyboard_lib = SchLib(tool=SKIDL).add_parts(*[
-        Part(**{ 'name':'USB_C_Receptacle_USB2.0', 'dest':TEMPLATE, 'tool':SKIDL, 'F1':'USB_C_Receptacle_USB2.0', 'description':'USB 2.0-only Type-C Receptacle connector', 'F2':'', 'F3':'', 'keywords':'usb universal serial bus type-C USB2.0', 'datasheet':'https://www.usb.org/sites/default/files/documents/usb_type-c.zip', 'F0':'J', 'match_pin_substring':False, 'LCSC':'C165948', 'ref_prefix':'J', 'num_units':1, 'fplist':['USB*C*Receptacle*'], 'do_erc':True, 'aliases':Alias(), 'pin':None, 'footprint':'USB_C_Receptacle_HRO_TYPE-C-31-M-12', 'pins':[
+        Part(**{ 'name':'USB_C_Receptacle_USB2.0', 'dest':TEMPLATE, 'tool':SKIDL, 'F3':'', 'F0':'J', 'F2':'', 'keywords':'usb universal serial bus type-C USB2.0', 'description':'USB 2.0-only Type-C Receptacle connector', 'LCSC':'C165948', 'match_pin_substring':False, 'F1':'USB_C_Receptacle_USB2.0', 'datasheet':'https://www.usb.org/sites/default/files/documents/usb_type-c.zip', 'ref_prefix':'J', 'num_units':1, 'fplist':['USB*C*Receptacle*'], 'do_erc':True, 'aliases':Alias(), 'pin':None, 'footprint':'USB_C_Receptacle_HRO_TYPE-C-31-M-12', 'pins':[
             Pin(num='A1',name='GND',func=Pin.types.PWRIN,do_erc=True),
             Pin(num='A12',name='GND',func=Pin.types.PASSIVE,do_erc=True),
             Pin(num='A4',name='VBUS',func=Pin.types.PWRIN,do_erc=True),
@@ -21,13 +21,13 @@ keyboard_lib = SchLib(tool=SKIDL).add_parts(*[
             Pin(num='B8',name='SBU2',func=Pin.types.BIDIR,do_erc=True),
             Pin(num='B9',name='VBUS',func=Pin.types.PASSIVE,do_erc=True),
             Pin(num='S1',name='SHIELD',func=Pin.types.PASSIVE,do_erc=True)] }),
-        Part(**{ 'name':'R', 'dest':TEMPLATE, 'tool':SKIDL, 'F1':'R', 'description':'Resistor', 'F2':'', 'F3':'', 'keywords':'R res resistor', 'datasheet':'~', 'F0':'R', 'match_pin_substring':False, 'LCSC':'C27834', 'ref_prefix':'R', 'num_units':1, 'fplist':['R_*'], 'do_erc':True, 'aliases':Alias(), 'pin':None, 'footprint':'Resistor_SMD:R_0805_2012Metric', 'pins':[
+        Part(**{ 'name':'R', 'dest':TEMPLATE, 'tool':SKIDL, 'F3':'', 'F0':'R', 'F2':'', 'keywords':'R res resistor', 'description':'Resistor', 'LCSC':'C27834', 'match_pin_substring':False, 'F1':'R', 'datasheet':'~', 'ref_prefix':'R', 'num_units':1, 'fplist':['R_*'], 'do_erc':True, 'aliases':Alias(), 'pin':None, 'footprint':'Resistor_SMD:R_0805_2012Metric', 'pins':[
             Pin(num='1',name='~',func=Pin.types.PASSIVE,do_erc=True),
             Pin(num='2',name='~',func=Pin.types.PASSIVE,do_erc=True)] }),
-        Part(**{ 'name':'Fuse', 'dest':TEMPLATE, 'tool':SKIDL, 'F1':'Fuse', 'description':'Fuse', 'F2':'', 'F3':'', 'keywords':'fuse', 'datasheet':'~', 'F0':'F', 'match_pin_substring':False, 'LCSC':'C369159', 'ref_prefix':'F', 'num_units':1, 'fplist':['*Fuse*'], 'do_erc':True, 'aliases':Alias(), 'pin':None, 'footprint':'Fuse:Fuse_1206_3216Metric', 'pins':[
+        Part(**{ 'name':'Fuse', 'dest':TEMPLATE, 'tool':SKIDL, 'F3':'', 'F0':'F', 'F2':'', 'keywords':'fuse', 'description':'Fuse', 'LCSC':'C369159', 'match_pin_substring':False, 'F1':'Fuse', 'datasheet':'~', 'ref_prefix':'F', 'num_units':1, 'fplist':['*Fuse*'], 'do_erc':True, 'aliases':Alias(), 'pin':None, 'footprint':'Fuse:Fuse_1206_3216Metric', 'pins':[
             Pin(num='1',name='~',func=Pin.types.PASSIVE,do_erc=True),
             Pin(num='2',name='~',func=Pin.types.PASSIVE,do_erc=True)] }),
-        Part(**{ 'name':'ATmega16U4-AU', 'dest':TEMPLATE, 'tool':SKIDL, 'F1':'ATmega16U4-AU', 'description':'16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, RC Osc, TQFP-44', 'F2':'Package_QFP:TQFP-44_10x10mm_P0.8mm', 'F3':'', 'keywords':'AVR 8bit Microcontroller MegaAVR USB', '_aliases':Alias({'ATmega32U4RC-AU', 'ATmega32U4-AU', 'ATmega16U4RC-AU'}), 'datasheet':'http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf', 'F0':'U', 'match_pin_substring':False, 'LCSC':'C44854', 'ref_prefix':'U', 'num_units':1, 'fplist':['TQFP*10x10mm*P0.8mm*'], 'do_erc':True, 'aliases':Alias({'ATmega32U4RC-AU', 'ATmega32U4-AU', 'ATmega16U4RC-AU'}), 'pin':None, 'footprint':'Package_QFP:TQFP-44_10x10mm_P0.8mm', 'pins':[
+        Part(**{ 'name':'ATmega16U4-AU', 'dest':TEMPLATE, 'tool':SKIDL, 'F3':'', 'F0':'U', 'F2':'Package_QFP:TQFP-44_10x10mm_P0.8mm', '_aliases':Alias({'ATmega16U4RC-AU', 'ATmega32U4-AU', 'ATmega32U4RC-AU'}), 'keywords':'AVR 8bit Microcontroller MegaAVR USB', 'description':'16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, RC Osc, TQFP-44', 'LCSC':'C44854', 'match_pin_substring':False, 'F1':'ATmega16U4-AU', 'datasheet':'http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf', 'ref_prefix':'U', 'num_units':1, 'fplist':['TQFP*10x10mm*P0.8mm*'], 'do_erc':True, 'aliases':Alias({'ATmega16U4RC-AU', 'ATmega32U4-AU', 'ATmega32U4RC-AU'}), 'pin':None, 'footprint':'Package_QFP:TQFP-44_10x10mm_P0.8mm', 'pins':[
             Pin(num='1',name='PE6',func=Pin.types.BIDIR,do_erc=True),
             Pin(num='10',name='PB2',func=Pin.types.BIDIR,do_erc=True),
             Pin(num='11',name='PB3',func=Pin.types.BIDIR,do_erc=True),
@@ -72,24 +72,24 @@ keyboard_lib = SchLib(tool=SKIDL).add_parts(*[
             Pin(num='7',name='VBUS',func=Pin.types.INPUT,do_erc=True),
             Pin(num='8',name='PB0',func=Pin.types.BIDIR,do_erc=True),
             Pin(num='9',name='PB1',func=Pin.types.BIDIR,do_erc=True)] }),
-        Part(**{ 'name':'LED_Small', 'dest':TEMPLATE, 'tool':SKIDL, 'F1':'LED_Small', 'description':'Light emitting diode, small symbol', 'F2':'', 'F3':'', 'keywords':'LED diode light-emitting-diode', 'datasheet':'~', 'F0':'D', 'match_pin_substring':False, 'LCSC':'C2296', 'ref_prefix':'D', 'num_units':1, 'fplist':['LED*', 'LED_SMD:*', 'LED_THT:*'], 'do_erc':True, 'aliases':Alias(), 'pin':None, 'footprint':'LED_SMD:LED_0805_2012Metric', 'pins':[
+        Part(**{ 'name':'LED_Small', 'dest':TEMPLATE, 'tool':SKIDL, 'F3':'', 'F0':'D', 'F2':'', 'keywords':'LED diode light-emitting-diode', 'description':'Light emitting diode, small symbol', 'LCSC':'C2296', 'match_pin_substring':False, 'F1':'LED_Small', 'datasheet':'~', 'ref_prefix':'D', 'num_units':1, 'fplist':['LED*', 'LED_SMD:*', 'LED_THT:*'], 'do_erc':True, 'aliases':Alias(), 'pin':None, 'footprint':'LED_SMD:LED_0805_2012Metric', 'pins':[
             Pin(num='1',name='K',func=Pin.types.PASSIVE,do_erc=True),
             Pin(num='2',name='A',func=Pin.types.PASSIVE,do_erc=True)] }),
-        Part(**{ 'name':'C', 'dest':TEMPLATE, 'tool':SKIDL, 'F1':'C', 'description':'Unpolarized capacitor', 'F2':'', 'F3':'', 'keywords':'cap capacitor', 'datasheet':'~', 'F0':'C', 'match_pin_substring':False, 'LCSC':'C28323', 'ref_prefix':'C', 'num_units':1, 'fplist':['C_*'], 'do_erc':True, 'aliases':Alias(), 'pin':None, 'footprint':'Capacitor_SMD:C_0805_2012Metric', 'pins':[
+        Part(**{ 'name':'C', 'dest':TEMPLATE, 'tool':SKIDL, 'F3':'', 'F0':'C', 'F2':'', 'keywords':'cap capacitor', 'description':'Unpolarized capacitor', 'LCSC':'C28323', 'match_pin_substring':False, 'F1':'C', 'datasheet':'~', 'ref_prefix':'C', 'num_units':1, 'fplist':['C_*'], 'do_erc':True, 'aliases':Alias(), 'pin':None, 'footprint':'Capacitor_SMD:C_0805_2012Metric', 'pins':[
             Pin(num='1',name='~',func=Pin.types.PASSIVE,do_erc=True),
             Pin(num='2',name='~',func=Pin.types.PASSIVE,do_erc=True)] }),
-        Part(**{ 'name':'Crystal_GND24_Small', 'dest':TEMPLATE, 'tool':SKIDL, 'F1':'Crystal_GND24_Small', 'description':'Four pin crystal, GND on pins 2 and 4, small symbol', 'F2':'', 'F3':'', 'keywords':'quartz ceramic resonator oscillator', 'datasheet':'~', 'F0':'Y', 'match_pin_substring':False, 'LCSC':'C13738', 'ref_prefix':'Y', 'num_units':1, 'fplist':['Crystal*'], 'do_erc':True, 'aliases':Alias(), 'pin':None, 'footprint':'Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm', 'pins':[
+        Part(**{ 'name':'Crystal_GND24_Small', 'dest':TEMPLATE, 'tool':SKIDL, 'F3':'', 'F0':'Y', 'F2':'', 'keywords':'quartz ceramic resonator oscillator', 'description':'Four pin crystal, GND on pins 2 and 4, small symbol', 'LCSC':'C13738', 'match_pin_substring':False, 'F1':'Crystal_GND24_Small', 'datasheet':'~', 'ref_prefix':'Y', 'num_units':1, 'fplist':['Crystal*'], 'do_erc':True, 'aliases':Alias(), 'pin':None, 'footprint':'Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm', 'pins':[
             Pin(num='1',name='1',func=Pin.types.PASSIVE,do_erc=True),
             Pin(num='2',name='2',func=Pin.types.PASSIVE,do_erc=True),
             Pin(num='3',name='3',func=Pin.types.PASSIVE,do_erc=True),
             Pin(num='4',name='4',func=Pin.types.PASSIVE,do_erc=True)] }),
-        Part(**{ 'name':'SW_PUSH', 'dest':TEMPLATE, 'tool':SKIDL, 'F1':'SW_PUSH', 'description':'', 'F2':'', 'F3':'', 'keywords':'', 'F0':'SW', 'match_pin_substring':False, 'datasheet':'', 'ref_prefix':'SW', 'num_units':1, 'fplist':[], 'do_erc':True, 'aliases':Alias(), 'pin':None, 'footprint':'kbd:CherryMX_Hotswap', 'pins':[
+        Part(**{ 'name':'SW_PUSH', 'dest':TEMPLATE, 'tool':SKIDL, 'F3':'', 'F0':'SW', 'F2':'', 'keywords':'', 'description':'', 'match_pin_substring':False, 'F1':'SW_PUSH', 'datasheet':'', 'ref_prefix':'SW', 'num_units':1, 'fplist':[], 'do_erc':True, 'aliases':Alias(), 'pin':None, 'footprint':'kbd:CherryMX_Hotswap', 'pins':[
             Pin(num='1',name='1',func=Pin.types.PASSIVE,do_erc=True),
             Pin(num='2',name='2',func=Pin.types.PASSIVE,do_erc=True)] }),
-        Part(**{ 'name':'D', 'dest':TEMPLATE, 'tool':SKIDL, 'F1':'D', 'description':'Diode', 'F2':'', 'F3':'', 'keywords':'diode', 'datasheet':'~', 'F0':'D', 'match_pin_substring':False, 'LCSC':'C81598', 'ref_prefix':'D', 'num_units':1, 'fplist':['TO-???*', '*_Diode_*', '*SingleDiode*', 'D_*'], 'do_erc':True, 'aliases':Alias(), 'pin':None, 'footprint':'Diode_SMD:D_SOD-123', 'pins':[
+        Part(**{ 'name':'D', 'dest':TEMPLATE, 'tool':SKIDL, 'F3':'', 'F0':'D', 'F2':'', 'keywords':'diode', 'description':'Diode', 'LCSC':'C81598', 'match_pin_substring':False, 'F1':'D', 'datasheet':'~', 'ref_prefix':'D', 'num_units':1, 'fplist':['TO-???*', '*_Diode_*', '*SingleDiode*', 'D_*'], 'do_erc':True, 'aliases':Alias(), 'pin':None, 'footprint':'Diode_SMD:D_SOD-123', 'pins':[
             Pin(num='1',name='K',func=Pin.types.PASSIVE,do_erc=True),
             Pin(num='2',name='A',func=Pin.types.PASSIVE,do_erc=True)] }),
-        Part(**{ 'name':'YS-SK6812MINI-E', 'dest':TEMPLATE, 'tool':SKIDL, 'F1':'YS-SK6812MINI-E', 'description':'', 'F2':'', 'F3':'', 'keywords':'', 'F0':'LED', 'match_pin_substring':False, 'datasheet':'', 'ref_prefix':'LED', 'num_units':1, 'fplist':[], 'do_erc':True, 'aliases':Alias(), 'pin':None, 'footprint':'kbd:YS-SK6812MINI-E', 'pins':[
+        Part(**{ 'name':'YS-SK6812MINI-E', 'dest':TEMPLATE, 'tool':SKIDL, 'F3':'', 'F0':'LED', 'F2':'', 'keywords':'', 'description':'', 'match_pin_substring':False, 'F1':'YS-SK6812MINI-E', 'datasheet':'', 'ref_prefix':'LED', 'num_units':1, 'fplist':[], 'do_erc':True, 'aliases':Alias(), 'pin':None, 'footprint':'kbd:YS-SK6812MINI-E', 'pins':[
             Pin(num='1',name='VDD',func=Pin.types.PWRIN,do_erc=True),
             Pin(num='2',name='DOUT',func=Pin.types.OUTPUT,do_erc=True),
             Pin(num='3',name='VSS',func=Pin.types.PWRIN,do_erc=True),
