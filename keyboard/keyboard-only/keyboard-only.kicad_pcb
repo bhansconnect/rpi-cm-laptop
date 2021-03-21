@@ -425,7 +425,7 @@
     (add_net VCC)
   )
 
-  (module kbd:M2_HOLE_v2 (layer F.Cu) (tedit 5F7666A4) (tstamp 6057E8D3)
+  (module kbd:M2_HOLE_v2 locked (layer F.Cu) (tedit 5F7666A4) (tstamp 6057E8D3)
     (at 26.035001 97.79 180)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
@@ -439,7 +439,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask))
   )
 
-  (module kbd:M2_HOLE_v2 (layer F.Cu) (tedit 5F7666A4) (tstamp 6057E8D3)
+  (module kbd:M2_HOLE_v2 locked (layer F.Cu) (tedit 5F7666A4) (tstamp 6057E8D3)
     (at 26.035001 40.64 180)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
@@ -453,7 +453,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask))
   )
 
-  (module kbd:M2_HOLE_v2 (layer F.Cu) (tedit 5F7666A4) (tstamp 6057E8D3)
+  (module kbd:M2_HOLE_v2 locked (layer F.Cu) (tedit 5F7666A4) (tstamp 6057E8D3)
     (at 270.51 40.64)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
@@ -467,7 +467,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask))
   )
 
-  (module kbd:M2_HOLE_v2 (layer F.Cu) (tedit 5F7666A4) (tstamp 6057E876)
+  (module kbd:M2_HOLE_v2 locked (layer F.Cu) (tedit 5F7666A4) (tstamp 6057E876)
     (at 270.51 97.79)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
@@ -485,7 +485,7 @@
     (at 36.426116 38.285987 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
-    (path /top/keyboard0/9868544860649762395)
+    (path /top/keyboard0/28567225228612969)
     (attr smd)
     (fp_text reference R7 (at -2.54 0 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -521,7 +521,7 @@
     (at 32.385 83.185 315)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
-    (path /top/keyboard0/9743423111841073326)
+    (path /top/keyboard0/3792593067461156021)
     (attr smd)
     (fp_text reference C1 (at 0 1.65 135) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -557,7 +557,7 @@
     (at 36.83 83.185 45)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
-    (path /top/keyboard0/1614963677831481186)
+    (path /top/keyboard0/10498003678837359926)
     (attr smd)
     (fp_text reference C2 (at 0 1.65 45) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -593,7 +593,7 @@
     (at 44.45 75.565 225)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
-    (path /top/keyboard0/10661596255363880649)
+    (path /top/keyboard0/2927366710372966349)
     (attr smd)
     (fp_text reference C3 (at 0 1.65 45) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -629,7 +629,7 @@
     (at 37.465 62.23 135)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
-    (path /top/keyboard0/1418129185796584761)
+    (path /top/keyboard0/8331345518369692426)
     (attr smd)
     (fp_text reference C4 (at 0 1.65 135) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -665,7 +665,7 @@
     (at 28.575 78.74 315)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
-    (path /top/keyboard0/16684138928644633028)
+    (path /top/keyboard0/6851046975291494023)
     (attr smd)
     (fp_text reference C5 (at 0 1.65 135) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -701,7 +701,7 @@
     (at 39.37 80.645 225)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
-    (path /top/keyboard0/13626977970103401374)
+    (path /top/keyboard0/3277102374469120482)
     (attr smd)
     (fp_text reference C6 (at -0.204681 1.347038 45) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -737,7 +737,7 @@
     (at 30.48 62.865 45)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
-    (path /top/keyboard0/16027297706492791851)
+    (path /top/keyboard0/10092657714661508485)
     (attr smd)
     (fp_text reference C7 (at 3.175 0 45) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -773,7 +773,7 @@
     (at 27.305 66.04 225)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
-    (path /top/keyboard0/16811858025385526570)
+    (path /top/keyboard0/14664271593289411761)
     (attr smd)
     (fp_text reference C8 (at 3.175 0 45) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -806,10 +806,10 @@
   )
 
   (module LED_SMD:LED_0805_2012Metric (layer B.Cu) (tedit 5B36C52C) (tstamp 60565BF1)
-    (at 31.75 110.49 270)
+    (at 31.75 110.49 90)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags diode)
-    (path /top/keyboard0/9331171232525943797)
+    (path /top/keyboard0/9911302441419328541)
     (attr smd)
     (fp_text reference D1 (at 0 1.65 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -832,10 +832,10 @@
     (fp_text user %R (at 0 0 90) (layer B.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
-    (pad 1 smd roundrect (at -0.9375 0 270) (size 0.975 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
-      (net 8 N$5))
-    (pad 2 smd roundrect (at 0.9375 0 270) (size 0.975 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.9375 0 90) (size 0.975 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 1 GND))
+    (pad 2 smd roundrect (at 0.9375 0 90) (size 0.975 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
+      (net 121 N$4))
     (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0805_2012Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -844,10 +844,10 @@
   )
 
   (module LED_SMD:LED_0805_2012Metric (layer B.Cu) (tedit 5B36C52C) (tstamp 60565C04)
-    (at 37.465 110.49 270)
+    (at 37.465 110.49 90)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags diode)
-    (path /top/keyboard0/11513863974953999959)
+    (path /top/keyboard0/6824501032310737856)
     (attr smd)
     (fp_text reference D2 (at 0 1.65 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -870,10 +870,10 @@
     (fp_text user %R (at 0 0 90) (layer B.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
-    (pad 2 smd roundrect (at 0.9375 0 270) (size 0.975 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.9375 0 90) (size 0.975 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
+      (net 122 N$6))
+    (pad 1 smd roundrect (at -0.9375 0 90) (size 0.975 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 1 GND))
-    (pad 1 smd roundrect (at -0.9375 0 270) (size 0.975 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
-      (net 9 N$7))
     (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0805_2012Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -882,10 +882,10 @@
   )
 
   (module LED_SMD:LED_0805_2012Metric (layer B.Cu) (tedit 5B36C52C) (tstamp 60565C17)
-    (at 42.545 110.49 270)
+    (at 42.545 110.49 90)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags diode)
-    (path /top/keyboard0/13811365426166622850)
+    (path /top/keyboard0/10311757802537858334)
     (attr smd)
     (fp_text reference D3 (at 0 1.65 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -908,10 +908,10 @@
     (fp_text user %R (at 0 0 90) (layer B.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
-    (pad 1 smd roundrect (at -0.9375 0 270) (size 0.975 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
-      (net 10 N$3))
-    (pad 2 smd roundrect (at 0.9375 0 270) (size 0.975 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.9375 0 90) (size 0.975 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 1 GND))
+    (pad 2 smd roundrect (at 0.9375 0 90) (size 0.975 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
+      (net 10 N$3))
     (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0805_2012Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -923,7 +923,7 @@
     (at 38.1 25.4)
     (descr "USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf")
     (tags "usb usb-c 2.0 pd")
-    (path /top/14124252618472383376)
+    (path /top/3806524846081000717)
     (attr smd)
     (fp_text reference J1 (at 0 5.645) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -992,7 +992,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60565FB8)
     (at 55.88 36.195)
-    (path /top/keyboard0/key_matrx0/17223706108416739123)
+    (path /top/keyboard0/key_matrx0/12209663833831005067)
     (fp_text reference LED1 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -1040,7 +1040,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60565FD8)
     (at 55.88 55.245)
-    (path /top/keyboard0/key_matrx0/14182703942626422619)
+    (path /top/keyboard0/key_matrx0/8326441626280962932)
     (fp_text reference LED2 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -1088,7 +1088,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60565FF8)
     (at 55.88 74.295)
-    (path /top/keyboard0/key_matrx0/6125624280737253710)
+    (path /top/keyboard0/key_matrx0/14995110382204456492)
     (fp_text reference LED3 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -1136,7 +1136,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566018)
     (at 55.88 93.345)
-    (path /top/keyboard0/key_matrx0/4761611762062472598)
+    (path /top/keyboard0/key_matrx0/379765493128974397)
     (fp_text reference LED4 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -1184,7 +1184,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566038)
     (at 55.88 112.395)
-    (path /top/keyboard0/key_matrx0/12606735534576367384)
+    (path /top/keyboard0/key_matrx0/14264341777978360074)
     (fp_text reference LED5 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -1232,7 +1232,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566058)
     (at 74.93 112.395)
-    (path /top/keyboard0/key_matrx0/12860228093463117847)
+    (path /top/keyboard0/key_matrx0/6192784335145914225)
     (fp_text reference LED6 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -1280,7 +1280,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566078)
     (at 74.93 93.345)
-    (path /top/keyboard0/key_matrx0/11780916360148070825)
+    (path /top/keyboard0/key_matrx0/11330062799813013590)
     (fp_text reference LED7 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -1328,7 +1328,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566098)
     (at 74.93 74.295)
-    (path /top/keyboard0/key_matrx0/11737024880874957986)
+    (path /top/keyboard0/key_matrx0/1176289599420331379)
     (fp_text reference LED8 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -1376,7 +1376,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 605660B8)
     (at 74.93 55.245)
-    (path /top/keyboard0/key_matrx0/11403939865272657399)
+    (path /top/keyboard0/key_matrx0/1814148469121778093)
     (fp_text reference LED9 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -1424,7 +1424,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 605660D8)
     (at 74.93 36.195)
-    (path /top/keyboard0/key_matrx0/16044849567707123433)
+    (path /top/keyboard0/key_matrx0/1066774380698877335)
     (fp_text reference LED10 (at 0.2 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -1472,7 +1472,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 605660F8)
     (at 93.98 36.195)
-    (path /top/keyboard0/key_matrx0/14712734709229517649)
+    (path /top/keyboard0/key_matrx0/6358801979675098517)
     (fp_text reference LED11 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -1520,7 +1520,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566118)
     (at 93.98 55.245)
-    (path /top/keyboard0/key_matrx0/6269987909750222428)
+    (path /top/keyboard0/key_matrx0/11371740543377820858)
     (fp_text reference LED12 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -1568,7 +1568,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566138)
     (at 93.98 74.295)
-    (path /top/keyboard0/key_matrx0/5916615261769045926)
+    (path /top/keyboard0/key_matrx0/9758298445685005336)
     (fp_text reference LED13 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -1616,7 +1616,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566158)
     (at 93.98 93.345)
-    (path /top/keyboard0/key_matrx0/16658981431089955069)
+    (path /top/keyboard0/key_matrx0/12202260560899612929)
     (fp_text reference LED14 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -1664,7 +1664,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566178)
     (at 93.98 112.395)
-    (path /top/keyboard0/key_matrx0/3412163093567209054)
+    (path /top/keyboard0/key_matrx0/14409060089787022178)
     (fp_text reference LED15 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -1712,7 +1712,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566198)
     (at 113.03 112.395)
-    (path /top/keyboard0/key_matrx0/16987638463967076291)
+    (path /top/keyboard0/key_matrx0/8818339453291354896)
     (fp_text reference LED16 (at 0.2 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -1760,7 +1760,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 605661B8)
     (at 113.03 93.345)
-    (path /top/keyboard0/key_matrx0/9882949300517380373)
+    (path /top/keyboard0/key_matrx0/12379197112981341841)
     (fp_text reference LED17 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -1808,7 +1808,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 605661D8)
     (at 113.03 74.295)
-    (path /top/keyboard0/key_matrx0/718405486656615052)
+    (path /top/keyboard0/key_matrx0/8601231619432441799)
     (fp_text reference LED18 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -1856,7 +1856,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 605661F8)
     (at 113.03 55.245)
-    (path /top/keyboard0/key_matrx0/17332337242885502434)
+    (path /top/keyboard0/key_matrx0/2751967821796155633)
     (fp_text reference LED19 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -1904,7 +1904,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566218)
     (at 113.03 36.195)
-    (path /top/keyboard0/key_matrx0/7436118532393962338)
+    (path /top/keyboard0/key_matrx0/5254044434861283924)
     (fp_text reference LED20 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -1952,7 +1952,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566238)
     (at 132.08 36.195)
-    (path /top/keyboard0/key_matrx0/2561523172662526574)
+    (path /top/keyboard0/key_matrx0/13605227603144450613)
     (fp_text reference LED21 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -2000,7 +2000,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566258)
     (at 132.08 55.245)
-    (path /top/keyboard0/key_matrx0/12894698015937434515)
+    (path /top/keyboard0/key_matrx0/9810703613868635932)
     (fp_text reference LED22 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -2048,7 +2048,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566278)
     (at 132.08 74.295)
-    (path /top/keyboard0/key_matrx0/8029377906596811405)
+    (path /top/keyboard0/key_matrx0/8506741867497626692)
     (fp_text reference LED23 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -2096,7 +2096,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566298)
     (at 132.08 93.345)
-    (path /top/keyboard0/key_matrx0/18280003113319789018)
+    (path /top/keyboard0/key_matrx0/10308491087267482063)
     (fp_text reference LED24 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -2144,7 +2144,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 605662B8)
     (at 132.08 112.395)
-    (path /top/keyboard0/key_matrx0/5842216496527026532)
+    (path /top/keyboard0/key_matrx0/5437946538927698916)
     (fp_text reference LED25 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -2192,7 +2192,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 605662D8)
     (at 151.13 112.395)
-    (path /top/keyboard0/key_matrx0/1214267428719549705)
+    (path /top/keyboard0/key_matrx0/8009687551879829036)
     (fp_text reference LED26 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -2240,7 +2240,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 605662F8)
     (at 151.13 93.41)
-    (path /top/keyboard0/key_matrx0/3232845470535870064)
+    (path /top/keyboard0/key_matrx0/456192814953671734)
     (fp_text reference LED27 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -2288,7 +2288,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566318)
     (at 151.13 74.295)
-    (path /top/keyboard0/key_matrx0/14877230791886424220)
+    (path /top/keyboard0/key_matrx0/14803463365004937617)
     (fp_text reference LED28 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -2336,7 +2336,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566338)
     (at 151.13 55.245)
-    (path /top/keyboard0/key_matrx0/3447049938536593622)
+    (path /top/keyboard0/key_matrx0/15749007390561978491)
     (fp_text reference LED29 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -2384,7 +2384,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566358)
     (at 151.13 36.195)
-    (path /top/keyboard0/key_matrx0/12539246735621046129)
+    (path /top/keyboard0/key_matrx0/3292769045522409858)
     (fp_text reference LED30 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -2432,7 +2432,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566378)
     (at 170.18 36.195)
-    (path /top/keyboard0/key_matrx0/12199407658914565578)
+    (path /top/keyboard0/key_matrx0/17374694590177738248)
     (fp_text reference LED31 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -2480,7 +2480,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566398)
     (at 170.18 55.245)
-    (path /top/keyboard0/key_matrx0/12104600317268582087)
+    (path /top/keyboard0/key_matrx0/14028495054069816850)
     (fp_text reference LED32 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -2528,7 +2528,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 605663B8)
     (at 170.18 74.295)
-    (path /top/keyboard0/key_matrx0/505714637095577893)
+    (path /top/keyboard0/key_matrx0/3329031269370445029)
     (fp_text reference LED33 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -2576,7 +2576,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 605663D8)
     (at 170.18 93.345)
-    (path /top/keyboard0/key_matrx0/13345946836201309981)
+    (path /top/keyboard0/key_matrx0/5722639053083504364)
     (fp_text reference LED34 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -2624,7 +2624,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 605663F8)
     (at 170.18 112.395)
-    (path /top/keyboard0/key_matrx0/16320322981309596991)
+    (path /top/keyboard0/key_matrx0/6451211187749782984)
     (fp_text reference LED35 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -2672,7 +2672,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566418)
     (at 189.23 112.395)
-    (path /top/keyboard0/key_matrx0/4677190760342152054)
+    (path /top/keyboard0/key_matrx0/9052581506134235503)
     (fp_text reference LED36 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -2720,7 +2720,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566438)
     (at 189.23 93.345)
-    (path /top/keyboard0/key_matrx0/11598077114297538181)
+    (path /top/keyboard0/key_matrx0/14978255996078666496)
     (fp_text reference LED37 (at 0 3.11) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -2768,7 +2768,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566458)
     (at 189.23 74.295)
-    (path /top/keyboard0/key_matrx0/4110739976358678135)
+    (path /top/keyboard0/key_matrx0/10070841547282226038)
     (fp_text reference LED38 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -2816,7 +2816,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566478)
     (at 189.23 55.245)
-    (path /top/keyboard0/key_matrx0/5554591749444239877)
+    (path /top/keyboard0/key_matrx0/11197294802952468787)
     (fp_text reference LED39 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -2864,7 +2864,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566498)
     (at 189.23 36.195)
-    (path /top/keyboard0/key_matrx0/18012935838578387182)
+    (path /top/keyboard0/key_matrx0/12991471057865903426)
     (fp_text reference LED40 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -2912,7 +2912,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 605664B8)
     (at 208.28 36.195)
-    (path /top/keyboard0/key_matrx0/17534707497734380671)
+    (path /top/keyboard0/key_matrx0/127422810004951474)
     (fp_text reference LED41 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -2960,7 +2960,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 605664D8)
     (at 208.28 55.245)
-    (path /top/keyboard0/key_matrx0/18436954546774091524)
+    (path /top/keyboard0/key_matrx0/10720942407599289725)
     (fp_text reference LED42 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -3008,7 +3008,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 605664F8)
     (at 208.28 74.295)
-    (path /top/keyboard0/key_matrx0/2896267404131983459)
+    (path /top/keyboard0/key_matrx0/1638227760688417836)
     (fp_text reference LED43 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -3056,7 +3056,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566518)
     (at 208.28 93.345)
-    (path /top/keyboard0/key_matrx0/10427511704331395692)
+    (path /top/keyboard0/key_matrx0/2290588979521818956)
     (fp_text reference LED44 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -3104,7 +3104,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566538)
     (at 208.28 112.395)
-    (path /top/keyboard0/key_matrx0/10082656982027179778)
+    (path /top/keyboard0/key_matrx0/12810602067387156089)
     (fp_text reference LED45 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -3152,7 +3152,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566558)
     (at 227.33 112.395)
-    (path /top/keyboard0/key_matrx0/12420989232146243742)
+    (path /top/keyboard0/key_matrx0/13641542636597074962)
     (fp_text reference LED46 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -3200,7 +3200,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566578)
     (at 227.33 93.345)
-    (path /top/keyboard0/key_matrx0/8472067035589603139)
+    (path /top/keyboard0/key_matrx0/11604198684454750917)
     (fp_text reference LED47 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -3248,7 +3248,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566598)
     (at 227.33 74.295)
-    (path /top/keyboard0/key_matrx0/823714549447653980)
+    (path /top/keyboard0/key_matrx0/16682997679960416613)
     (fp_text reference LED48 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -3296,7 +3296,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 605665B8)
     (at 227.33 55.245)
-    (path /top/keyboard0/key_matrx0/18011778226992461465)
+    (path /top/keyboard0/key_matrx0/2820472009610383832)
     (fp_text reference LED49 (at 0 3.24) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -3344,7 +3344,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 605665D8)
     (at 227.33 36.195)
-    (path /top/keyboard0/key_matrx0/5440292982891224662)
+    (path /top/keyboard0/key_matrx0/11154773878099792279)
     (fp_text reference LED50 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -3392,7 +3392,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 605665F8)
     (at 246.38 36.195)
-    (path /top/keyboard0/key_matrx0/5598914926720488353)
+    (path /top/keyboard0/key_matrx0/3969547386345114601)
     (fp_text reference LED51 (at 0.2 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -3440,7 +3440,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566618)
     (at 246.38 55.245)
-    (path /top/keyboard0/key_matrx0/6236428109100330645)
+    (path /top/keyboard0/key_matrx0/13859520648087859231)
     (fp_text reference LED52 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -3488,7 +3488,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566638)
     (at 246.38 74.295)
-    (path /top/keyboard0/key_matrx0/5460173812911829279)
+    (path /top/keyboard0/key_matrx0/16140643660882475407)
     (fp_text reference LED53 (at 0.2 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -3536,7 +3536,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566658)
     (at 246.38 93.345)
-    (path /top/keyboard0/key_matrx0/12398842463793093730)
+    (path /top/keyboard0/key_matrx0/11489075694255504243)
     (fp_text reference LED54 (at 0 3.24) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -3584,7 +3584,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566678)
     (at 246.38 112.395)
-    (path /top/keyboard0/key_matrx0/3163802924743934586)
+    (path /top/keyboard0/key_matrx0/9819441666354586006)
     (fp_text reference LED55 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -3632,7 +3632,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566698)
     (at 265.43 112.395)
-    (path /top/keyboard0/key_matrx0/11847764556941517012)
+    (path /top/keyboard0/key_matrx0/14316736399771519445)
     (fp_text reference LED56 (at 0 3.24) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -3680,7 +3680,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 605666B8)
     (at 265.43 93.345)
-    (path /top/keyboard0/key_matrx0/5201427234658189060)
+    (path /top/keyboard0/key_matrx0/17450961605838336767)
     (fp_text reference LED57 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -3728,7 +3728,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 605666D8)
     (at 265.43 74.295)
-    (path /top/keyboard0/key_matrx0/14355658478590472574)
+    (path /top/keyboard0/key_matrx0/18185860663120322167)
     (fp_text reference LED58 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -3776,7 +3776,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 605666F8)
     (at 265.43 55.31)
-    (path /top/keyboard0/key_matrx0/3817499796705170384)
+    (path /top/keyboard0/key_matrx0/6696819634658263400)
     (fp_text reference LED59 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -3824,7 +3824,7 @@
 
   (module kbd:YS-SK6812MINI-E (layer B.Cu) (tedit 5F70BC98) (tstamp 60566718)
     (at 265.43 36.195)
-    (path /top/keyboard0/key_matrx0/735417558197240651)
+    (path /top/keyboard0/key_matrx0/17867226198829740265)
     (fp_text reference LED60 (at 0 3.175) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -3873,7 +3873,7 @@
     (at 40.660001 35.265001)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
-    (path /top/9054917612743638985)
+    (path /top/6185643519869317818)
     (attr smd)
     (fp_text reference R1 (at 0 1.65) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -3909,7 +3909,7 @@
     (at 40.64 40.64)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
-    (path /top/10826373260494528982)
+    (path /top/14184592610616921088)
     (attr smd)
     (fp_text reference R2 (at 0 1.65) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -3942,10 +3942,10 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer B.Cu) (tedit 5B36C52B) (tstamp 6056674B)
-    (at 31.75 106.68 270)
+    (at 31.75 106.68 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
-    (path /top/keyboard0/15283054659534948448)
+    (path /top/keyboard0/6171016339648869963)
     (attr smd)
     (fp_text reference R3 (at 0 1.65 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -3966,9 +3966,9 @@
     (fp_text user %R (at 0 0 90) (layer B.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
-    (pad 2 smd roundrect (at 0.9375 0 270) (size 0.975 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.9375 0 90) (size 0.975 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 8 N$5))
-    (pad 1 smd roundrect (at -0.9375 0 270) (size 0.975 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.9375 0 90) (size 0.975 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 121 N$4))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
       (at (xyz 0 0 0))
@@ -3978,10 +3978,10 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer B.Cu) (tedit 5B36C52B) (tstamp 6056675C)
-    (at 37.465 106.68 270)
+    (at 37.465 106.68 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
-    (path /top/keyboard0/18284247204422770351)
+    (path /top/keyboard0/12114704681692166360)
     (attr smd)
     (fp_text reference R4 (at 0 1.65 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -4002,9 +4002,9 @@
     (fp_text user %R (at 0 0 90) (layer B.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
-    (pad 1 smd roundrect (at -0.9375 0 270) (size 0.975 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.9375 0 90) (size 0.975 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 122 N$6))
-    (pad 2 smd roundrect (at 0.9375 0 270) (size 0.975 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.9375 0 90) (size 0.975 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 9 N$7))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
       (at (xyz 0 0 0))
@@ -4014,10 +4014,10 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer B.Cu) (tedit 5B36C52B) (tstamp 6056676D)
-    (at 42.545 106.68 270)
+    (at 42.545 106.68 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
-    (path /top/keyboard0/15595218751822372696)
+    (path /top/keyboard0/7098039943822033087)
     (attr smd)
     (fp_text reference R5 (at 0 1.65 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -4038,10 +4038,10 @@
     (fp_text user %R (at 0 0 90) (layer B.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
     )
-    (pad 2 smd roundrect (at 0.9375 0 270) (size 0.975 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
-      (net 10 N$3))
-    (pad 1 smd roundrect (at -0.9375 0 270) (size 0.975 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.9375 0 90) (size 0.975 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 3 VCC))
+    (pad 1 smd roundrect (at -0.9375 0 90) (size 0.975 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
+      (net 10 N$3))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4053,7 +4053,7 @@
     (at 34.671 57.912)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
-    (path /top/keyboard0/4239942346919840285)
+    (path /top/keyboard0/17958826767482785072)
     (attr smd)
     (fp_text reference R6 (at 0 1.65) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -4089,7 +4089,7 @@
     (at 33.886115 38.285987 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
-    (path /top/keyboard0/7905004231633083740)
+    (path /top/keyboard0/7556201795284436841)
     (attr smd)
     (fp_text reference R8 (at -2.54 0 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -4123,7 +4123,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 605667CA)
     (at 55.88 31.115)
-    (path /top/keyboard0/key_matrx0/11071935970959866575)
+    (path /top/keyboard0/key_matrx0/14948510617935633445)
     (fp_text reference SW1 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -4179,7 +4179,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 605667F4)
     (at 74.93 31.115)
-    (path /top/keyboard0/key_matrx0/14042031330735050204)
+    (path /top/keyboard0/key_matrx0/10512103431154214877)
     (fp_text reference SW2 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -4235,7 +4235,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 6056681E)
     (at 93.98 31.115)
-    (path /top/keyboard0/key_matrx0/14978175082745687804)
+    (path /top/keyboard0/key_matrx0/4568922798499339744)
     (fp_text reference SW3 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -4291,7 +4291,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566848)
     (at 113.03 31.115)
-    (path /top/keyboard0/key_matrx0/3066708807177530185)
+    (path /top/keyboard0/key_matrx0/8753962511829404126)
     (fp_text reference SW4 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -4347,7 +4347,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566872)
     (at 132.08 31.115)
-    (path /top/keyboard0/key_matrx0/14155355937550618598)
+    (path /top/keyboard0/key_matrx0/15532979183981622354)
     (fp_text reference SW5 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -4403,7 +4403,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 6056689C)
     (at 151.13 31.115)
-    (path /top/keyboard0/key_matrx0/2594816878332248423)
+    (path /top/keyboard0/key_matrx0/14885360158880509493)
     (fp_text reference SW6 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -4459,7 +4459,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 605668C6)
     (at 170.18 31.115)
-    (path /top/keyboard0/key_matrx0/14886453043928874840)
+    (path /top/keyboard0/key_matrx0/18284873640145042905)
     (fp_text reference SW7 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -4515,7 +4515,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 605668F0)
     (at 189.23 31.115)
-    (path /top/keyboard0/key_matrx0/11817458425997228430)
+    (path /top/keyboard0/key_matrx0/11072397042467822269)
     (fp_text reference SW8 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -4571,7 +4571,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 6056691A)
     (at 208.28 31.115)
-    (path /top/keyboard0/key_matrx0/9268060100146733672)
+    (path /top/keyboard0/key_matrx0/15303842932105016168)
     (fp_text reference SW9 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -4627,7 +4627,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566944)
     (at 227.33 31.115)
-    (path /top/keyboard0/key_matrx0/2002967467159995901)
+    (path /top/keyboard0/key_matrx0/1462976254365699154)
     (fp_text reference SW10 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -4683,7 +4683,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 6056696E)
     (at 246.38 31.115)
-    (path /top/keyboard0/key_matrx0/8623518616114523581)
+    (path /top/keyboard0/key_matrx0/13795392050996329707)
     (fp_text reference SW11 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -4739,7 +4739,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566998)
     (at 265.43 31.115)
-    (path /top/keyboard0/key_matrx0/9399002984614367342)
+    (path /top/keyboard0/key_matrx0/6806092473288585206)
     (fp_text reference SW12 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -4795,7 +4795,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 605669C2)
     (at 55.88 50.165)
-    (path /top/keyboard0/key_matrx0/2209685070425283835)
+    (path /top/keyboard0/key_matrx0/5548101193390533701)
     (fp_text reference SW13 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -4851,7 +4851,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 605669EC)
     (at 74.93 50.165)
-    (path /top/keyboard0/key_matrx0/9416144149100809078)
+    (path /top/keyboard0/key_matrx0/16093389122382979125)
     (fp_text reference SW14 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -4907,7 +4907,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566A16)
     (at 93.98 50.165)
-    (path /top/keyboard0/key_matrx0/2186405748668998463)
+    (path /top/keyboard0/key_matrx0/9020709992326087686)
     (fp_text reference SW15 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -4963,7 +4963,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566A40)
     (at 113.03 50.165)
-    (path /top/keyboard0/key_matrx0/8840457009607972850)
+    (path /top/keyboard0/key_matrx0/3170893326233697842)
     (fp_text reference SW16 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -5019,7 +5019,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566A6A)
     (at 132.08 50.165)
-    (path /top/keyboard0/key_matrx0/3807020615952260623)
+    (path /top/keyboard0/key_matrx0/16335279530318272413)
     (fp_text reference SW17 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -5075,7 +5075,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566A94)
     (at 151.13 50.165)
-    (path /top/keyboard0/key_matrx0/144312394088741454)
+    (path /top/keyboard0/key_matrx0/3753956026548719989)
     (fp_text reference SW18 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -5131,7 +5131,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566ABE)
     (at 170.18 50.165)
-    (path /top/keyboard0/key_matrx0/9615495078274385363)
+    (path /top/keyboard0/key_matrx0/15265423824071907835)
     (fp_text reference SW19 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -5187,7 +5187,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566AE8)
     (at 189.23 50.165)
-    (path /top/keyboard0/key_matrx0/15375458495970326459)
+    (path /top/keyboard0/key_matrx0/255417749785823995)
     (fp_text reference SW20 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -5243,7 +5243,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566B12)
     (at 208.28 50.165)
-    (path /top/keyboard0/key_matrx0/15897394395683043315)
+    (path /top/keyboard0/key_matrx0/3446986329929646381)
     (fp_text reference SW21 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -5299,7 +5299,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566B3C)
     (at 227.33 50.165)
-    (path /top/keyboard0/key_matrx0/4540786569954452857)
+    (path /top/keyboard0/key_matrx0/16247826767671199052)
     (fp_text reference SW22 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -5355,7 +5355,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566B66)
     (at 246.38 50.165)
-    (path /top/keyboard0/key_matrx0/7517834261288551112)
+    (path /top/keyboard0/key_matrx0/5390554328034078115)
     (fp_text reference SW23 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -5411,7 +5411,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566B90)
     (at 265.43 50.165)
-    (path /top/keyboard0/key_matrx0/3523681865429153131)
+    (path /top/keyboard0/key_matrx0/17919882845641935988)
     (fp_text reference SW24 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -5467,7 +5467,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566BBA)
     (at 55.88 69.215)
-    (path /top/keyboard0/key_matrx0/17919082231419425492)
+    (path /top/keyboard0/key_matrx0/4468900717544992345)
     (fp_text reference SW25 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -5523,7 +5523,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566BE4)
     (at 74.93 69.215)
-    (path /top/keyboard0/key_matrx0/3399895593928881736)
+    (path /top/keyboard0/key_matrx0/13371790980877409707)
     (fp_text reference SW26 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -5579,7 +5579,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566C0E)
     (at 93.98 69.215)
-    (path /top/keyboard0/key_matrx0/4620184119041003338)
+    (path /top/keyboard0/key_matrx0/10665565108657922667)
     (fp_text reference SW27 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -5635,7 +5635,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566C38)
     (at 113.03 69.215)
-    (path /top/keyboard0/key_matrx0/3506985826982628459)
+    (path /top/keyboard0/key_matrx0/9056166585982839641)
     (fp_text reference SW28 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -5691,7 +5691,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566C62)
     (at 132.08 69.215)
-    (path /top/keyboard0/key_matrx0/6224072533051953950)
+    (path /top/keyboard0/key_matrx0/12857806118186099742)
     (fp_text reference SW29 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -5747,7 +5747,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566C8C)
     (at 151.13 69.215)
-    (path /top/keyboard0/key_matrx0/11705103307124394061)
+    (path /top/keyboard0/key_matrx0/1855193594794825244)
     (fp_text reference SW30 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -5803,7 +5803,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566CB6)
     (at 170.18 69.215)
-    (path /top/keyboard0/key_matrx0/3475037074581647288)
+    (path /top/keyboard0/key_matrx0/16412274135639492087)
     (fp_text reference SW31 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -5859,7 +5859,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566CE0)
     (at 189.23 69.215)
-    (path /top/keyboard0/key_matrx0/5678377784619360217)
+    (path /top/keyboard0/key_matrx0/9779091820953890438)
     (fp_text reference SW32 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -5915,7 +5915,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566D0A)
     (at 208.28 69.215)
-    (path /top/keyboard0/key_matrx0/14793792124903206287)
+    (path /top/keyboard0/key_matrx0/3601705165989253686)
     (fp_text reference SW33 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -5971,7 +5971,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566D34)
     (at 227.33 69.215)
-    (path /top/keyboard0/key_matrx0/2305279575208215616)
+    (path /top/keyboard0/key_matrx0/5853274233920357655)
     (fp_text reference SW34 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -6027,7 +6027,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566D5E)
     (at 246.38 69.215)
-    (path /top/keyboard0/key_matrx0/1559549685250926236)
+    (path /top/keyboard0/key_matrx0/16928657558273123616)
     (fp_text reference SW35 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -6083,7 +6083,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566D88)
     (at 265.43 69.215)
-    (path /top/keyboard0/key_matrx0/17037875082274871386)
+    (path /top/keyboard0/key_matrx0/12377385180382373816)
     (fp_text reference SW36 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -6139,7 +6139,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566DB2)
     (at 55.88 88.265)
-    (path /top/keyboard0/key_matrx0/9815319649573755615)
+    (path /top/keyboard0/key_matrx0/12315631280540863056)
     (fp_text reference SW37 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -6195,7 +6195,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566DDC)
     (at 74.93 88.265)
-    (path /top/keyboard0/key_matrx0/12879320812248989835)
+    (path /top/keyboard0/key_matrx0/15058129648504279887)
     (fp_text reference SW38 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -6251,7 +6251,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566E06)
     (at 93.98 88.265)
-    (path /top/keyboard0/key_matrx0/16627834675836862947)
+    (path /top/keyboard0/key_matrx0/16891774064526764959)
     (fp_text reference SW39 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -6307,7 +6307,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566E30)
     (at 113.03 88.265)
-    (path /top/keyboard0/key_matrx0/1852131528136604728)
+    (path /top/keyboard0/key_matrx0/2930607936722569612)
     (fp_text reference SW40 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -6363,7 +6363,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60555CE8)
     (at 132.08 88.265)
-    (path /top/keyboard0/key_matrx0/176305576227871226)
+    (path /top/keyboard0/key_matrx0/17757308939824703329)
     (fp_text reference SW41 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -6419,7 +6419,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566E84)
     (at 151.13 88.265)
-    (path /top/keyboard0/key_matrx0/1982710267359436690)
+    (path /top/keyboard0/key_matrx0/8617870942942901448)
     (fp_text reference SW42 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -6475,7 +6475,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566EAE)
     (at 170.18 88.265)
-    (path /top/keyboard0/key_matrx0/9106572940080231351)
+    (path /top/keyboard0/key_matrx0/1281690260949362243)
     (fp_text reference SW43 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -6531,7 +6531,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566ED8)
     (at 189.23 88.265)
-    (path /top/keyboard0/key_matrx0/10223305014621817639)
+    (path /top/keyboard0/key_matrx0/2915637855139974503)
     (fp_text reference SW44 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -6587,7 +6587,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566F02)
     (at 208.28 88.265)
-    (path /top/keyboard0/key_matrx0/17741765664482849659)
+    (path /top/keyboard0/key_matrx0/6003319985756443911)
     (fp_text reference SW45 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -6643,7 +6643,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566F2C)
     (at 227.33 88.265)
-    (path /top/keyboard0/key_matrx0/11017260164919135921)
+    (path /top/keyboard0/key_matrx0/6955053145309323596)
     (fp_text reference SW46 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -6699,7 +6699,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566F56)
     (at 246.38 88.265)
-    (path /top/keyboard0/key_matrx0/8962607207472239165)
+    (path /top/keyboard0/key_matrx0/461625922741935532)
     (fp_text reference SW47 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -6755,7 +6755,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566F80)
     (at 265.43 88.265)
-    (path /top/keyboard0/key_matrx0/15682474972549099806)
+    (path /top/keyboard0/key_matrx0/1152323411149684474)
     (fp_text reference SW48 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -6811,7 +6811,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566FAA)
     (at 55.88 107.315)
-    (path /top/keyboard0/key_matrx0/5588205876757202176)
+    (path /top/keyboard0/key_matrx0/14177161446715901940)
     (fp_text reference SW49 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -6867,7 +6867,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566FD4)
     (at 74.93 107.315)
-    (path /top/keyboard0/key_matrx0/17008088351130243715)
+    (path /top/keyboard0/key_matrx0/7238374216804987899)
     (fp_text reference SW50 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -6923,7 +6923,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60566FFE)
     (at 93.98 107.315)
-    (path /top/keyboard0/key_matrx0/10126695086085711086)
+    (path /top/keyboard0/key_matrx0/1393432360034480292)
     (fp_text reference SW51 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -6979,7 +6979,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60567028)
     (at 113.03 107.315)
-    (path /top/keyboard0/key_matrx0/13957979682741806963)
+    (path /top/keyboard0/key_matrx0/7485895761851190336)
     (fp_text reference SW52 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -7035,7 +7035,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60567052)
     (at 132.08 107.315)
-    (path /top/keyboard0/key_matrx0/17885908104460425031)
+    (path /top/keyboard0/key_matrx0/3629945950935749406)
     (fp_text reference SW53 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -7091,7 +7091,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 6056707C)
     (at 151.13 107.315)
-    (path /top/keyboard0/key_matrx0/5137190807138724478)
+    (path /top/keyboard0/key_matrx0/10385472206047575363)
     (fp_text reference SW54 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -7147,7 +7147,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 605670A6)
     (at 170.18 107.315)
-    (path /top/keyboard0/key_matrx0/749279831097365469)
+    (path /top/keyboard0/key_matrx0/8762970954251652854)
     (fp_text reference SW55 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -7203,7 +7203,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 605670D0)
     (at 189.23 107.315)
-    (path /top/keyboard0/key_matrx0/8281851082529451748)
+    (path /top/keyboard0/key_matrx0/14232910771560492735)
     (fp_text reference SW56 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -7259,7 +7259,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 605670FA)
     (at 208.28 107.315)
-    (path /top/keyboard0/key_matrx0/9066612949524879664)
+    (path /top/keyboard0/key_matrx0/5347416045087198122)
     (fp_text reference SW57 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -7315,7 +7315,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60567124)
     (at 227.33 107.315)
-    (path /top/keyboard0/key_matrx0/4111397563193425955)
+    (path /top/keyboard0/key_matrx0/12843754117624262912)
     (fp_text reference SW58 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -7371,7 +7371,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 6056714E)
     (at 246.38 107.315)
-    (path /top/keyboard0/key_matrx0/9729299244488137264)
+    (path /top/keyboard0/key_matrx0/15762517541419924848)
     (fp_text reference SW59 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -7427,7 +7427,7 @@
 
   (module kbd:CherryMX_Hotswap (layer F.Cu) (tedit 5F70BC32) (tstamp 60567178)
     (at 265.43 107.315)
-    (path /top/keyboard0/key_matrx0/12685810256973280063)
+    (path /top/keyboard0/key_matrx0/18414309422879613678)
     (fp_text reference SW60 (at 7.1 8.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -7485,7 +7485,7 @@
     (at 34.603629 71.940987 45)
     (descr "44-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1.0 mm Body [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "QFP 0.8")
-    (path /top/keyboard0/13467120400964746116)
+    (path /top/keyboard0/13282738371412282403)
     (attr smd)
     (fp_text reference U1 (at 0 7.45 45) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -7529,7 +7529,7 @@
     (pad 7 smd rect (at -5.7 -0.8 45) (size 1.5 0.55) (layers B.Cu B.Paste B.Mask)
       (net 2 VBUS))
     (pad 8 smd rect (at -5.7 -1.6 45) (size 1.5 0.55) (layers B.Cu B.Paste B.Mask)
-      (net 121 N$4))
+      (net 8 N$5))
     (pad 9 smd rect (at -5.7 -2.4 45) (size 1.5 0.55) (layers B.Cu B.Paste B.Mask)
       (net 149 COL6))
     (pad 10 smd rect (at -5.7 -3.2 45) (size 1.5 0.55) (layers B.Cu B.Paste B.Mask)
@@ -7554,7 +7554,7 @@
     (pad 21 smd rect (at 3.2 -5.7 315) (size 1.5 0.55) (layers B.Cu B.Paste B.Mask)
       (net 7 N$14))
     (pad 22 smd rect (at 4 -5.7 315) (size 1.5 0.55) (layers B.Cu B.Paste B.Mask)
-      (net 122 N$6))
+      (net 9 N$7))
     (pad 23 smd rect (at 5.7 -4 45) (size 1.5 0.55) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
     (pad 24 smd rect (at 5.7 -3.2 45) (size 1.5 0.55) (layers B.Cu B.Paste B.Mask)
@@ -7608,7 +7608,7 @@
     (at 27.305 31.115 180)
     (descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
-    (path /top/keyboard0/2844091563356370869)
+    (path /top/keyboard0/18316142573960302903)
     (attr smd)
     (fp_text reference F1 (at 0 -1.778) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -7644,7 +7644,7 @@
     (at 26.035 61.595 225)
     (descr "SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package")
     (tags "SMD SMT crystal")
-    (path /top/keyboard0/13277224152223325020)
+    (path /top/keyboard0/1714399902536881599)
     (attr smd)
     (fp_text reference Y1 (at 0 2.45 45) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -7685,7 +7685,7 @@
     (at 63.5 31.115 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/15001354832279292102)
+    (path /top/keyboard0/key_matrx0/3797464202406204080)
     (attr smd)
     (fp_text reference D4 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -7729,7 +7729,7 @@
     (at 82.55 31.115 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/17395012496625909380)
+    (path /top/keyboard0/key_matrx0/1441055612774166982)
     (attr smd)
     (fp_text reference D5 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -7773,7 +7773,7 @@
     (at 101.6 31.115 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/575889415983328293)
+    (path /top/keyboard0/key_matrx0/13298774787072287235)
     (attr smd)
     (fp_text reference D6 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -7817,7 +7817,7 @@
     (at 120.65 31.115 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/10168888740812461934)
+    (path /top/keyboard0/key_matrx0/13993239841085713356)
     (attr smd)
     (fp_text reference D7 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -7861,7 +7861,7 @@
     (at 139.7 31.115 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/1779735407105023230)
+    (path /top/keyboard0/key_matrx0/3376644886425081217)
     (attr smd)
     (fp_text reference D8 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -7905,7 +7905,7 @@
     (at 158.75 31.115 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/8638612021198621187)
+    (path /top/keyboard0/key_matrx0/3374410861554480733)
     (attr smd)
     (fp_text reference D9 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -7949,7 +7949,7 @@
     (at 177.8 31.115 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/1449934904782340953)
+    (path /top/keyboard0/key_matrx0/10561252837070958012)
     (attr smd)
     (fp_text reference D10 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -7993,7 +7993,7 @@
     (at 196.85 31.115 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/5126139128992889417)
+    (path /top/keyboard0/key_matrx0/12490487719560862419)
     (attr smd)
     (fp_text reference D11 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -8037,7 +8037,7 @@
     (at 215.9 31.115 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/4809571278626914294)
+    (path /top/keyboard0/key_matrx0/517525311646573722)
     (attr smd)
     (fp_text reference D12 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -8081,7 +8081,7 @@
     (at 234.95 31.115 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/6219296860701557781)
+    (path /top/keyboard0/key_matrx0/1353384958629625460)
     (attr smd)
     (fp_text reference D13 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -8125,7 +8125,7 @@
     (at 254 31.115 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/12393486429433136205)
+    (path /top/keyboard0/key_matrx0/3719614965074145242)
     (attr smd)
     (fp_text reference D14 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -8169,7 +8169,7 @@
     (at 273.05 31.115 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/604988299404822683)
+    (path /top/keyboard0/key_matrx0/17561049216550353272)
     (attr smd)
     (fp_text reference D15 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -8213,7 +8213,7 @@
     (at 63.5 50.165 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/15739392778838592153)
+    (path /top/keyboard0/key_matrx0/12032719648813846967)
     (attr smd)
     (fp_text reference D16 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -8257,7 +8257,7 @@
     (at 82.55 50.165 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/6373422208174055256)
+    (path /top/keyboard0/key_matrx0/17013249351571462635)
     (attr smd)
     (fp_text reference D17 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -8301,7 +8301,7 @@
     (at 101.6 50.165 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/3478027744063109948)
+    (path /top/keyboard0/key_matrx0/17699974578117744430)
     (attr smd)
     (fp_text reference D18 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -8345,7 +8345,7 @@
     (at 120.65 50.165 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/5166384291465665414)
+    (path /top/keyboard0/key_matrx0/11910129780209086557)
     (attr smd)
     (fp_text reference D19 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -8389,7 +8389,7 @@
     (at 139.7 50.165 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/988573233783587607)
+    (path /top/keyboard0/key_matrx0/4725468389189247137)
     (attr smd)
     (fp_text reference D20 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -8433,7 +8433,7 @@
     (at 158.75 50.165 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/17974103775491988855)
+    (path /top/keyboard0/key_matrx0/5829417043732251094)
     (attr smd)
     (fp_text reference D21 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -8477,7 +8477,7 @@
     (at 177.8 50.165 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/13087207428502545219)
+    (path /top/keyboard0/key_matrx0/6654101011519078900)
     (attr smd)
     (fp_text reference D22 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -8521,7 +8521,7 @@
     (at 196.85 50.165 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/13716208899487714332)
+    (path /top/keyboard0/key_matrx0/14196359090591657513)
     (attr smd)
     (fp_text reference D23 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -8565,7 +8565,7 @@
     (at 215.9 50.165 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/8639847568939640665)
+    (path /top/keyboard0/key_matrx0/11290887764193340681)
     (attr smd)
     (fp_text reference D24 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -8609,7 +8609,7 @@
     (at 234.95 50.165 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/14099029927078033471)
+    (path /top/keyboard0/key_matrx0/559178749108303947)
     (attr smd)
     (fp_text reference D25 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -8653,7 +8653,7 @@
     (at 254 50.165 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/14058206183335066792)
+    (path /top/keyboard0/key_matrx0/1756112069702589640)
     (attr smd)
     (fp_text reference D26 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -8697,7 +8697,7 @@
     (at 273.05 50.165 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/3990305018493313951)
+    (path /top/keyboard0/key_matrx0/6189592099590807639)
     (attr smd)
     (fp_text reference D27 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -8741,7 +8741,7 @@
     (at 63.5 69.215 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/4189365823611806367)
+    (path /top/keyboard0/key_matrx0/4977262016906239451)
     (attr smd)
     (fp_text reference D28 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -8785,7 +8785,7 @@
     (at 82.55 69.215 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/3991593723623935566)
+    (path /top/keyboard0/key_matrx0/8668511820505051926)
     (attr smd)
     (fp_text reference D29 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -8829,7 +8829,7 @@
     (at 101.6 69.215 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/1209430424522711849)
+    (path /top/keyboard0/key_matrx0/12309404115537980842)
     (attr smd)
     (fp_text reference D30 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -8873,7 +8873,7 @@
     (at 120.65 69.215 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/6787213626560190490)
+    (path /top/keyboard0/key_matrx0/8737509266938122192)
     (attr smd)
     (fp_text reference D31 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -8917,7 +8917,7 @@
     (at 139.7 69.215 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/9124417126265469207)
+    (path /top/keyboard0/key_matrx0/4735260633196585525)
     (attr smd)
     (fp_text reference D32 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -8961,7 +8961,7 @@
     (at 158.75 69.215 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/17529107319247210337)
+    (path /top/keyboard0/key_matrx0/12219057802174581975)
     (attr smd)
     (fp_text reference D33 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -9005,7 +9005,7 @@
     (at 177.8 69.215 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/13663873896609647972)
+    (path /top/keyboard0/key_matrx0/6910748771506470864)
     (attr smd)
     (fp_text reference D34 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -9049,7 +9049,7 @@
     (at 196.85 69.215 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/11853827839573448005)
+    (path /top/keyboard0/key_matrx0/17378512041065804760)
     (attr smd)
     (fp_text reference D35 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -9093,7 +9093,7 @@
     (at 215.9 69.215 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/16242067693028258433)
+    (path /top/keyboard0/key_matrx0/17163579263934414188)
     (attr smd)
     (fp_text reference D36 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -9137,7 +9137,7 @@
     (at 234.95 69.215 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/5398946253970097076)
+    (path /top/keyboard0/key_matrx0/9240189218736235573)
     (attr smd)
     (fp_text reference D37 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -9181,7 +9181,7 @@
     (at 254 69.215 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/17270620333318002819)
+    (path /top/keyboard0/key_matrx0/7654253118484930464)
     (attr smd)
     (fp_text reference D38 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -9225,7 +9225,7 @@
     (at 273.05 69.215 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/12132992754467879046)
+    (path /top/keyboard0/key_matrx0/16428364669338858984)
     (attr smd)
     (fp_text reference D39 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -9269,7 +9269,7 @@
     (at 63.5 88.265 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/9019504414342260829)
+    (path /top/keyboard0/key_matrx0/3994758168846757627)
     (attr smd)
     (fp_text reference D40 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -9313,7 +9313,7 @@
     (at 82.55 88.265 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/727679468499164464)
+    (path /top/keyboard0/key_matrx0/9757972579483243418)
     (attr smd)
     (fp_text reference D41 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -9357,7 +9357,7 @@
     (at 101.6 88.265 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/9063172411725472310)
+    (path /top/keyboard0/key_matrx0/18366007446217875112)
     (attr smd)
     (fp_text reference D42 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -9401,7 +9401,7 @@
     (at 120.65 88.265 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/7127518328060380463)
+    (path /top/keyboard0/key_matrx0/10451185426080572312)
     (attr smd)
     (fp_text reference D43 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -9445,7 +9445,7 @@
     (at 139.7 88.265 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/5924941691093548086)
+    (path /top/keyboard0/key_matrx0/3246298718419490928)
     (attr smd)
     (fp_text reference D44 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -9489,7 +9489,7 @@
     (at 158.75 88.265 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/11588362947923831628)
+    (path /top/keyboard0/key_matrx0/1360868832048437047)
     (attr smd)
     (fp_text reference D45 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -9533,7 +9533,7 @@
     (at 177.8 88.265 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/8811766499461044044)
+    (path /top/keyboard0/key_matrx0/2964207211821720293)
     (attr smd)
     (fp_text reference D46 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -9577,7 +9577,7 @@
     (at 196.85 88.265 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/14934822969172844150)
+    (path /top/keyboard0/key_matrx0/15399886336947272334)
     (attr smd)
     (fp_text reference D47 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -9621,7 +9621,7 @@
     (at 215.9 88.265 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/7731904050397799085)
+    (path /top/keyboard0/key_matrx0/6597473244779884547)
     (attr smd)
     (fp_text reference D48 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -9665,7 +9665,7 @@
     (at 234.95 88.265 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/9917470376067096356)
+    (path /top/keyboard0/key_matrx0/859438830109484666)
     (attr smd)
     (fp_text reference D49 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -9709,7 +9709,7 @@
     (at 254 88.265 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/2462782940861797385)
+    (path /top/keyboard0/key_matrx0/17242633712086105096)
     (attr smd)
     (fp_text reference D50 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -9753,7 +9753,7 @@
     (at 273.05 88.265 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/14512850205128531601)
+    (path /top/keyboard0/key_matrx0/7106380478717345280)
     (attr smd)
     (fp_text reference D51 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -9797,7 +9797,7 @@
     (at 63.5 107.315 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/8358465490735658332)
+    (path /top/keyboard0/key_matrx0/13685718037483061331)
     (attr smd)
     (fp_text reference D52 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -9841,7 +9841,7 @@
     (at 82.55 107.315 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/12039788480382017983)
+    (path /top/keyboard0/key_matrx0/908467831701635342)
     (attr smd)
     (fp_text reference D53 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -9885,7 +9885,7 @@
     (at 101.6 107.315 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/15157794738969454244)
+    (path /top/keyboard0/key_matrx0/14038213281237826746)
     (attr smd)
     (fp_text reference D54 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -9929,7 +9929,7 @@
     (at 120.65 107.315 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/12605089934487614552)
+    (path /top/keyboard0/key_matrx0/17703962660276778417)
     (attr smd)
     (fp_text reference D55 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -9973,7 +9973,7 @@
     (at 139.7 107.315 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/6497099778574548096)
+    (path /top/keyboard0/key_matrx0/8505167222262581468)
     (attr smd)
     (fp_text reference D56 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -10017,7 +10017,7 @@
     (at 158.75 107.315 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/11775443821562225543)
+    (path /top/keyboard0/key_matrx0/16097765249437478389)
     (attr smd)
     (fp_text reference D57 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -10061,7 +10061,7 @@
     (at 177.8 107.315 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/6219505046298809030)
+    (path /top/keyboard0/key_matrx0/3455299557086796093)
     (attr smd)
     (fp_text reference D58 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -10105,7 +10105,7 @@
     (at 196.85 107.315 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/4017127692621622299)
+    (path /top/keyboard0/key_matrx0/9688696310991766266)
     (attr smd)
     (fp_text reference D59 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -10149,7 +10149,7 @@
     (at 215.9 107.315 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/17704964456156218569)
+    (path /top/keyboard0/key_matrx0/17593124171317271896)
     (attr smd)
     (fp_text reference D60 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -10193,7 +10193,7 @@
     (at 234.95 107.315 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/16157295644197644590)
+    (path /top/keyboard0/key_matrx0/2552234288616161682)
     (attr smd)
     (fp_text reference D61 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -10237,7 +10237,7 @@
     (at 254 107.315 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/11408013477305989189)
+    (path /top/keyboard0/key_matrx0/119876757740011724)
     (attr smd)
     (fp_text reference D62 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -10281,7 +10281,7 @@
     (at 273.05 107.315 90)
     (descr SOD-123)
     (tags SOD-123)
-    (path /top/keyboard0/key_matrx0/15091781051093507050)
+    (path /top/keyboard0/key_matrx0/4631469126680068370)
     (attr smd)
     (fp_text reference D63 (at 0 2 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -10972,8 +10972,8 @@
   (segment (start 33.655 52.832) (end 47.752 38.735) (width 0.25) (layer F.Cu) (net 7))
   (segment (start 52.814 37.211) (end 53.13 36.895) (width 0.25) (layer B.Cu) (net 7))
   (segment (start 47.752 37.211) (end 52.814 37.211) (width 0.25) (layer B.Cu) (net 7))
-  (segment (start 31.75 107.6175) (end 31.75 109.5525) (width 0.25) (layer B.Cu) (net 8))
-  (segment (start 37.465 107.6175) (end 37.465 109.5525) (width 0.25) (layer B.Cu) (net 9))
+  (segment (start 31.75 107.6175) (end 31.75 109.5525) (width 0.25) (layer B.Cu) (net 121))
+  (segment (start 37.465 107.6175) (end 37.465 109.5525) (width 0.25) (layer B.Cu) (net 122))
   (segment (start 42.545 107.6175) (end 42.545 109.5525) (width 0.25) (layer B.Cu) (net 10))
   (via (at 60.96 35.56) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 11) (tstamp 6056D9CB))
   (segment (start 59.055 48.895) (end 55.245 45.085) (width 0.25) (layer F.Cu) (net 11) (tstamp 6056D9CD))
@@ -11760,20 +11760,20 @@
   (segment (start 254 105.54) (end 254 104.013) (width 0.25) (layer B.Cu) (net 119))
   (segment (start 273.05 104.013) (end 271.272 102.235) (width 0.25) (layer B.Cu) (net 120))
   (segment (start 273.05 105.54) (end 273.05 104.013) (width 0.25) (layer B.Cu) (net 120))
-  (via (at 28.702 76.454) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 121))
-  (segment (start 28.702 75.579874) (end 28.702 76.454) (width 0.25) (layer B.Cu) (net 121))
-  (segment (start 29.441749 74.840125) (end 28.702 75.579874) (width 0.25) (layer B.Cu) (net 121))
-  (via (at 31.75 104.013) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 121))
-  (segment (start 31.75 79.502) (end 31.75 104.013) (width 0.25) (layer F.Cu) (net 121))
-  (segment (start 28.702 76.454) (end 31.75 79.502) (width 0.25) (layer F.Cu) (net 121))
-  (segment (start 31.75 104.013) (end 31.75 105.7425) (width 0.25) (layer B.Cu) (net 121))
-  (via (at 34.660525 66.156525) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 122))
-  (segment (start 33.586051 65.082051) (end 34.660525 66.156525) (width 0.25) (layer B.Cu) (net 122))
-  (segment (start 33.401547 65.082051) (end 33.586051 65.082051) (width 0.25) (layer B.Cu) (net 122))
-  (via (at 37.465 104.013) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 122))
-  (segment (start 37.465 68.961) (end 37.465 104.013) (width 0.25) (layer F.Cu) (net 122))
-  (segment (start 34.660525 66.156525) (end 37.465 68.961) (width 0.25) (layer F.Cu) (net 122))
-  (segment (start 37.465 104.013) (end 37.465 105.7425) (width 0.25) (layer B.Cu) (net 122))
+  (via (at 28.702 76.454) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 8))
+  (segment (start 28.702 75.579874) (end 28.702 76.454) (width 0.25) (layer B.Cu) (net 8))
+  (segment (start 29.441749 74.840125) (end 28.702 75.579874) (width 0.25) (layer B.Cu) (net 8))
+  (via (at 31.75 104.013) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 8))
+  (segment (start 31.75 79.502) (end 31.75 104.013) (width 0.25) (layer F.Cu) (net 8))
+  (segment (start 28.702 76.454) (end 31.75 79.502) (width 0.25) (layer F.Cu) (net 8))
+  (segment (start 31.75 104.013) (end 31.75 105.7425) (width 0.25) (layer B.Cu) (net 8))
+  (via (at 34.660525 66.156525) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 9))
+  (segment (start 33.586051 65.082051) (end 34.660525 66.156525) (width 0.25) (layer B.Cu) (net 9))
+  (segment (start 33.401547 65.082051) (end 33.586051 65.082051) (width 0.25) (layer B.Cu) (net 9))
+  (via (at 37.465 104.013) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 9))
+  (segment (start 37.465 68.961) (end 37.465 104.013) (width 0.25) (layer F.Cu) (net 9))
+  (segment (start 34.660525 66.156525) (end 37.465 68.961) (width 0.25) (layer F.Cu) (net 9))
+  (segment (start 37.465 104.013) (end 37.465 105.7425) (width 0.25) (layer B.Cu) (net 9))
   (via (at 23.2 64.77) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 123))
   (segment (start 23.2 65.062841) (end 23.2 64.77) (width 0.25) (layer B.Cu) (net 123))
   (segment (start 28.310379 70.17322) (end 23.2 65.062841) (width 0.25) (layer B.Cu) (net 123))

@@ -82,9 +82,9 @@ def keyboard(uvcc, udplus, udminus, gnd):
     tx_resistor = rx_resistor.copy()
     power_resistor = Part('Device', 'R', value='1K', footprint=R_FP)
     power_resistor.fields[LCSC] = 'C17513'
-    vcc & power_resistor & power_led & gnd
-    atmega['PB0'] & rx_resistor & rx_led & gnd
-    atmega['PD5'] & tx_resistor & tx_led & gnd
+    gnd & power_led & power_resistor & vcc
+    gnd & rx_led & rx_resistor & atmega['PB0']
+    gnd & tx_led & tx_resistor & atmega['PD5']
 
     reset_pullup = Part('Device', 'R', value='10K', footprint=R_FP)
     reset_pullup.fields[LCSC] = 'C17414'
