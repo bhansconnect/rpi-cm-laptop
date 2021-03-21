@@ -37,7 +37,7 @@ def key_matrx(row_pins, col_pins, vcc, gnd, led_din=None):
         for c in col_nets:
             key = Part('kbd', 'SW_PUSH', footprint='kbd:CherryMX_Hotswap')
             diode = Part('Device', 'D', footprint='Diode_SMD:D_SOD-123')
-            diode.fields[LCSC] = 'C2099'
+            diode.fields[LCSC] = 'C81598'
             key[1] += c
             key[2] += diode[2]
             diode[1] += r
